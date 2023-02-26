@@ -155,7 +155,7 @@ public class PoleBitwy extends Strzały {
         }
         catch (Exception ingore) { }
 
-      //  System.out.println("Nie docieram tu?");
+      
         return true;
 
     }
@@ -218,10 +218,7 @@ public class PoleBitwy extends Strzały {
         if(y.endsWith("10")){
             y2 = 10;
         }
-      //  System.out.println(y2);
-        // System.out.println(y1);
-        //System.out.println(x2);
-       // System.out.println(x1);
+     
 
 
         if(y2<=0 || y2 >10 || y1<=0 || y1 >10 || x2<=0 || x2 >10 || x1<=0 || x1 >10) { //Jak za mape chce ktoś wylecieć
